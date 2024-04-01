@@ -265,7 +265,7 @@ int main() {
         cout << "迄今为止找到的最优解的适应度为：" << bestSoFar.getFitness() << endl;
     }
 
-    cout << "迄今为止找到的最优解的位置：" << endl;
+    cout << "迄今为止找到的尽可能最优解的位置：" << endl;
     bestSoFar.printPositions();
     cout << endl;
 
